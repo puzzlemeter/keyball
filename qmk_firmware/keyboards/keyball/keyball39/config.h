@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // USB Device descriptor parameters
 #define VENDOR_ID           0x5957      // "YW" = Yowkees
-#define PRODUCT_ID          0x0200      
+#define PRODUCT_ID          0x0200
 #define DEVICE_VER          0x0001
 #define MANUFACTURER        Yowkees
 #define PRODUCT             Keyball39
@@ -77,5 +77,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // To squeeze firmware size
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
+// #define NO_ACTION_MACRO
+// #define NO_ACTION_FUNCTION
